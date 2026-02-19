@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-kinesis-video-archived-media`](https://www.npmjs.com/package/@aws-sdk/client-kinesis-video-archived-media/v/3.936.0).
+[`@aws-sdk/client-kinesis-video-archived-media`](https://www.npmjs.com/package/@aws-sdk/client-kinesis-video-archived-media/v/3.939.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video-archived-media@3.936.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video-archived-media@3.939.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-5CG9Foun5+GXa4bj5RqYe6vKfEOjAh6e1in/wlDmTXmiTBCLSQPS8giIzYiKa7Zh
+sha384-1wMz7FNq6X8U3inwy6vJgsagw3vuwJ5oh6IsoQLT0pK6LQDmKZe5cXDxUqGv3pkt
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-kinesis-video-archived-media": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video-archived-media@3.936.0/index.min.mjs"
+            "@aws-sdk/client-kinesis-video-archived-media": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video-archived-media@3.939.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video-archived-media@3.936.0/index.min.mjs": "sha384-5CG9Foun5+GXa4bj5RqYe6vKfEOjAh6e1in/wlDmTXmiTBCLSQPS8giIzYiKa7Zh"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video-archived-media@3.939.0/index.min.mjs": "sha384-1wMz7FNq6X8U3inwy6vJgsagw3vuwJ5oh6IsoQLT0pK6LQDmKZe5cXDxUqGv3pkt"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-kinesis-video-archived-media": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video-archived-media@3.936.0/index.min.mjs"
+                        "@aws-sdk/client-kinesis-video-archived-media": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video-archived-media@3.939.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video-archived-media@3.936.0/index.min.mjs": "sha384-5CG9Foun5+GXa4bj5RqYe6vKfEOjAh6e1in/wlDmTXmiTBCLSQPS8giIzYiKa7Zh"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video-archived-media@3.939.0/index.min.mjs": "sha384-1wMz7FNq6X8U3inwy6vJgsagw3vuwJ5oh6IsoQLT0pK6LQDmKZe5cXDxUqGv3pkt"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.936.0`)
+* Always pin to a specific version (`@3.939.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-kinesis-video-archived-media/blob/refs/tags/3.936.0/LICENSE
+https://github.com/cloud-sdk-builds/client-kinesis-video-archived-media/blob/refs/tags/3.939.0/LICENSE
 ```
 
 ---
